@@ -126,7 +126,7 @@
             gap: 24px;
         }
 
-/* FIXED LOGO STYLES - Replace your existing .logo and .logo-svg classes with this */
+/* FIXED LOGO STYLES  */
 
 .logo {
     display: flex;
@@ -147,16 +147,8 @@
     display: block;   /* Removes any inline spacing issues */
 }
 
-/* Remove the width="100%" from your SVG code and replace with: */
-/* In your HTML, change the SVG opening tag from:
-<svg version="1.1" id="Layer_1" xmlns="..." width="100%" viewBox="0 0 944 302" ...>
 
-TO:
-
-<svg version="1.1" id="Layer_1" xmlns="..." viewBox="0 0 944 302" class="logo-svg" ...>
-*/
-
-/* Keep your existing hover effects */
+/* Keep existing hover effects */
 .logo::before {
     content: '';
     position: absolute;
@@ -1120,7 +1112,7 @@ TO:
         .job-badge.new {
             background: var(--green-500);
             animation: float 3s ease-in-out infinite;
-        } {
+        
             transform: translateY(-4px);
             box-shadow: 0 12px 32px rgba(0,0,0,0.15);
         }
